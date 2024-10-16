@@ -1,4 +1,4 @@
-import "./App.css";
+import React from "react";
 import { Link, Outlet } from "react-router-dom";
 
 function Home() {
@@ -46,6 +46,7 @@ export function Contact() {
   );
 }
 
-export default function App() {
+export function App() {
   return <Home />;
 }
+
